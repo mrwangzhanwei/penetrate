@@ -13,7 +13,7 @@ public class ServerStart {
 
     public static void main(String[] args) throws Exception {
 
-        log.info("starting...");
+        log.info("server starting...");
 
         if (null != args && args.length == 2) {
             int visitorPort = Integer.parseInt(args[1]);
