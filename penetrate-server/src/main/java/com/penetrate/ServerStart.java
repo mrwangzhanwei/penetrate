@@ -1,14 +1,18 @@
-package com.penetrate.server;
+package com.penetrate;
 
 
+import com.penetrate.constant.Constant;
+import com.penetrate.socket.ServerSocket;
+import com.penetrate.socket.VisitorSocket;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ServerStart {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(ServerStart.class);
+    private static final Logger log = LoggerFactory.getLogger(ServerStart.class);
+
     public static void main(String[] args) throws Exception {
-        LOGGER.info("哈哈");
+
         if (null != args && args.length == 2) {
             int visitorPort = Integer.parseInt(args[1]);
             int serverPort = Integer.parseInt(args[0]);

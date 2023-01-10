@@ -1,4 +1,4 @@
-package com.penetrate.server;
+package com.penetrate.constant;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

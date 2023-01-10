@@ -1,5 +1,6 @@
-package com.penetrate.client;
+package com.penetrate.handler;
 
+import com.penetrate.constant.Constant;
 import com.penetrate.message.Message;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.Channel;

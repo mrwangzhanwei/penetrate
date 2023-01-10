@@ -1,5 +1,7 @@
-package com.penetrate.client;
+package com.penetrate.socket;
 
+import com.penetrate.constant.Constant;
+import com.penetrate.handler.RealHandler;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;

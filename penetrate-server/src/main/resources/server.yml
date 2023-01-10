@@ -1,0 +1,12 @@
+# 前期测试文件
+##### redis的配置信息
+redis:
+  host: 172.31.223.30
+  port: 16379
+  password: iflytek!
+
+### 服务端的配置信息
+server:
+  shost: 10.3.16.30
+  sport: 34962
+

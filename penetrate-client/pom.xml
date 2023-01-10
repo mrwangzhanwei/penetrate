@@ -32,7 +32,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.penetrate.client.ClientStart</mainClass>
+                            <mainClass>com.penetrate.ClientStart</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

@@ -1,4 +1,7 @@
-package com.penetrate.client;
+package com.penetrate;
+
+import com.penetrate.constant.Constant;
+import com.penetrate.socket.ProxySocket;
 
 public class ClientStart {
     public static void main(String[] args) throws Exception {

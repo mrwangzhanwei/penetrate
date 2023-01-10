@@ -1,8 +1,11 @@
-package com.penetrate.client;
+package com.penetrate.socket;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
+
+import com.penetrate.constant.Constant;
+import com.penetrate.handler.ProxyHandler;
 import com.penetrate.message.Message;
 import com.penetrate.message.MessageDecoder;
 import com.penetrate.message.MessageEncoder;

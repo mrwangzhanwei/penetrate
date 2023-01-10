@@ -1,8 +1,9 @@
-package com.penetrate.server;
+package com.penetrate.handler;
 
 import java.util.UUID;
 
 import com.penetrate.message.Message;
+import com.penetrate.constant.Constant;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
